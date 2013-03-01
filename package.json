@@ -1,0 +1,11 @@
+{
+  "name": "zend-commander",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Ivan Kamatovic <ivan.kamatovic@wm.rs>",
+  "description": "simple node command tool for zend guard",
+  "main": "./zend-commander",
+  "dependencies" : {
+    "optimist" :  ">= 0.3.5"
+  }
+}
