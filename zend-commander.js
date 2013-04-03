@@ -12,8 +12,10 @@ var argv = require('optimist')
 	 .default('z', '/usr/local/Zend/zendenc5')
 	 .argv,
 
-   zend = require('./lib/zend-commander')(argv)
+   zend = require('./lib/zend-commander')
 ;
+
+zend.init(argv);
 
 zend.dir(function(error, response){
 	if(error) {console.log(response); return;}
